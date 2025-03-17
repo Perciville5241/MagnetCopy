@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Tor Magnet Link Copier",
+  "version": "1.2",
+  "description": "Copies a selected magnet link from the page to the clipboard when clicked or manually through the popup.",
+  "permissions": ["activeTab", "clipboardWrite"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
+
