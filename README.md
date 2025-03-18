@@ -1,12 +1,14 @@
 # MagnetCopy
 
+Available at https://addons.mozilla.org/en-GB/firefox/addon/tor-magnet-link-copier/
+
+I have uploaded my source code here for the sake of your Privacy and my full disclosure as this addon's intended use is in TOR Browser.
 
 # Tor Magnet Link Copier
 
 ## Overview
-Tor Magnet Link Copier is a simple Firefox extension that allows users to quickly copy `magnet:` links found on a webpage. The extension provides two methods to copy magnet links:
+Tor Magnet Link Copier is a simple Firefox extension that allows users to quickly copy `magnet:` links found on a webpage. The extension provide a method to copy magnet links without Clickjacking popups:
 
-- **Automatic Copying**: Clicking the extension icon will scan the page and copy the first magnet link found.
 - **Manual Copy via Popup**: Clicking the extension icon opens a popup with a button to manually scrape and copy the first magnet link.
 
 ## Features
@@ -16,7 +18,11 @@ Tor Magnet Link Copier is a simple Firefox extension that allows users to quickl
 - Lightweight and easy to use.
 - Includes a GitHub reference for project updates.
 
-## Installation
+## Auto Installation
+1. https://addons.mozilla.org/en-GB/firefox/addon/tor-magnet-link-copier/
+2. Add to Firefox.
+
+## Manual Installation
 1. Download the extension files.
 2. Open **Firefox/Tor Browser** and navigate to `about:debugging`.
 3. Click **"This Firefox" > "Load Temporary Add-on"**.
@@ -24,8 +30,7 @@ Tor Magnet Link Copier is a simple Firefox extension that allows users to quickl
 5. The extension is now active and ready to use.
 
 ## Usage
-- **Method 1**: Click the extension icon to automatically copy the first `magnet:` link found.
-- **Method 2**: Click the extension icon to open the popup, then click "Click Here to Scrape Magnet Links" to manually copy the first `magnet:` link found.
+Click the extension icon to open the popup, then click "Click Here to Scrape Magnet Links" to manually copy the first `magnet:` link found.
 - If multiple links are detected, the extension will prompt you to choose the correct one.
 
 ## Permissions
