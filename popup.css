@@ -1,0 +1,16 @@
+body { font-family: Arial, sans-serif; width: 420px; padding: 10px; margin: 0; }
+h3 { margin: 0 0 8px; text-align: center; }
+#status { text-align: center; margin: 6px 0; word-break: break-word; }
+#status.error { color: #c0392b; }
+#status.ok { color: #1e8449; }
+.select-all { display: block; font-weight: bold; padding: 6px 4px; border-bottom: 1px solid #ccc; cursor: pointer; }
+#list { list-style: none; margin: 0; padding: 0; max-height: 360px; overflow-y: auto; }
+#list li { border-bottom: 1px solid #eee; }
+#list label { display: flex; gap: 8px; align-items: flex-start; padding: 6px 4px; cursor: pointer; }
+#list label:hover { background: #f3f6fa; }
+#list input { margin-top: 2px; flex: none; }
+.name { font-size: 13px; word-break: break-word; }
+.meta { font-size: 11px; color: #666; font-family: monospace; margin-top: 2px; }
+.copy-btn { display: block; width: 100%; padding: 10px; margin-top: 10px; background: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px; }
+.copy-btn:disabled { background: #9bbce0; cursor: default; }
+.github-link { margin-top: 12px; font-size: 13px; text-align: center; }
