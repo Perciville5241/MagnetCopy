@@ -31,6 +31,9 @@ Tor Magnet Link Copier is a simple Firefox extension that allows users to quickl
 4. Select the `manifest.json` file.
 5. The extension is now active and ready to use.
 
+### Tor Browser
+Tor Browser windows are always private, so the add-on must be allowed to run in private windows or its toolbar button will not appear. Tick "Allow" when asked at install time, or later go to `about:addons`, open Tor Magnet Link Copier and set "Run in Private Windows" to Allow.
+
 ## Usage
 Click the extension icon. The current page is scanned for `magnet:` links:
 - **None found**: the popup says so.
